@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite123" duration-ms="50783" started-at="2021-06-20T18:13:08 IST" finished-at="2021-06-20T18:13:59 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="21874" started-at="2021-06-20T18:13:08 IST" finished-at="2021-06-20T18:13:30 IST">
+      <class name="com.test.classes.TestClass">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="launchBrowser" is-config="true" duration-ms="2804" started-at="2021-06-20T18:13:08 IST" finished-at="2021-06-20T18:13:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="beforeClass" is-config="true" duration-ms="734" started-at="2021-06-20T18:13:11 IST" finished-at="2021-06-20T18:13:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="beforeMethod" is-config="true" duration-ms="524" started-at="2021-06-20T18:13:12 IST" finished-at="2021-06-20T18:13:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyReportsLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="verifyReportsLink" duration-ms="2606" started-at="2021-06-20T18:13:12 IST" finished-at="2021-06-20T18:13:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportsLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="logoutActiTime" is-config="true" duration-ms="2230" started-at="2021-06-20T18:13:15 IST" finished-at="2021-06-20T18:13:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReportsLink status=SUCCESS method=TestClass.verifyReportsLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="beforeMethod" is-config="true" duration-ms="248" started-at="2021-06-20T18:13:17 IST" finished-at="2021-06-20T18:13:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyTaskLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="verifyTaskLink" duration-ms="2482" started-at="2021-06-20T18:13:18 IST" finished-at="2021-06-20T18:13:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="logoutActiTime" is-config="true" duration-ms="2389" started-at="2021-06-20T18:13:20 IST" finished-at="2021-06-20T18:13:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTaskLink status=SUCCESS method=TestClass.verifyTaskLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="beforeMethod" is-config="true" duration-ms="256" started-at="2021-06-20T18:13:22 IST" finished-at="2021-06-20T18:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUsersLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="verifyUsersLink" duration-ms="4859" started-at="2021-06-20T18:13:23 IST" finished-at="2021-06-20T18:13:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="logoutActiTime" is-config="true" duration-ms="2430" started-at="2021-06-20T18:13:28 IST" finished-at="2021-06-20T18:13:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsersLink status=SUCCESS method=TestClass.verifyUsersLink()[pri:0, instance:com.test.classes.TestClass@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="afterClass" is-config="true" duration-ms="224" started-at="2021-06-20T18:13:30 IST" finished-at="2021-06-20T18:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.classes.TestClass@a38d7a3]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-20T18:13:30 IST" finished-at="2021-06-20T18:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.classes.TestClass -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="28861" started-at="2021-06-20T18:13:30 IST" finished-at="2021-06-20T18:13:59 IST">
+      <class name="com.test.classes.TestClass">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="launchBrowser" is-config="true" duration-ms="4965" started-at="2021-06-20T18:13:30 IST" finished-at="2021-06-20T18:13:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="beforeClass" is-config="true" duration-ms="658" started-at="2021-06-20T18:13:35 IST" finished-at="2021-06-20T18:13:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="beforeMethod" is-config="true" duration-ms="1492" started-at="2021-06-20T18:13:36 IST" finished-at="2021-06-20T18:13:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyReportsLink()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="verifyReportsLink" duration-ms="2792" started-at="2021-06-20T18:13:37 IST" finished-at="2021-06-20T18:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportsLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="logoutActiTime" is-config="true" duration-ms="2410" started-at="2021-06-20T18:13:40 IST" finished-at="2021-06-20T18:13:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReportsLink status=SUCCESS method=TestClass.verifyReportsLink()[pri:0, instance:com.test.classes.TestClass@5891e32e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="beforeMethod" is-config="true" duration-ms="1001" started-at="2021-06-20T18:13:43 IST" finished-at="2021-06-20T18:13:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyTaskLink()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="verifyTaskLink" duration-ms="2893" started-at="2021-06-20T18:13:44 IST" finished-at="2021-06-20T18:13:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="logoutActiTime" is-config="true" duration-ms="2410" started-at="2021-06-20T18:13:46 IST" finished-at="2021-06-20T18:13:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTaskLink status=SUCCESS method=TestClass.verifyTaskLink()[pri:0, instance:com.test.classes.TestClass@5891e32e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="beforeMethod" is-config="true" duration-ms="979" started-at="2021-06-20T18:13:49 IST" finished-at="2021-06-20T18:13:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUsersLink()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="verifyUsersLink" duration-ms="5426" started-at="2021-06-20T18:13:50 IST" finished-at="2021-06-20T18:13:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersLink -->
+        <test-method status="PASS" signature="logoutActiTime(org.testng.ITestResult)[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="logoutActiTime" is-config="true" duration-ms="2373" started-at="2021-06-20T18:13:55 IST" finished-at="2021-06-20T18:13:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsersLink status=SUCCESS method=TestClass.verifyUsersLink()[pri:0, instance:com.test.classes.TestClass@5891e32e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutActiTime -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="afterClass" is-config="true" duration-ms="1454" started-at="2021-06-20T18:13:58 IST" finished-at="2021-06-20T18:13:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.classes.TestClass@5891e32e]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-20T18:13:59 IST" finished-at="2021-06-20T18:13:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.classes.TestClass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite123 -->
+</testng-results>
