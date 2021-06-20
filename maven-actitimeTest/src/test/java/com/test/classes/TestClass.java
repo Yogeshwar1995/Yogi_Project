@@ -131,6 +131,6 @@ public class TestClass extends Pojo {
 	
 	@AfterTest
 	public void afterTest() {
-		
+		System.out.println("After Test");
 	}
 }
