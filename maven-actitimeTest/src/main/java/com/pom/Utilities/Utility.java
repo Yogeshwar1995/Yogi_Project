@@ -26,26 +26,27 @@ public class Utility {
 	
 	}
 	
-	public static void ExcelDataFetch() throws EncryptedDocumentException, IOException {
-		
-	String path = "E:\\Testing\\Excl sheet.xlsx";
+//	public static void ExcelDataFetch() throws EncryptedDocumentException, IOException {
+//		
+//	String path = "E:\\Testing\\Excl sheet.xlsx";
+//	
+//	FileInputStream file = new FileInputStream(path);
+//	
+//	Workbook a = WorkbookFactory.create(file);
+//	
+//	Sheet b = a.getSheet("Sheet1");
+//		
+//	for (int i=0; i<=4; i++)
 	
-	FileInputStream file = new FileInputStream(path);
-	
-	Workbook a = WorkbookFactory.create(file);
-	
-	Sheet b = a.getSheet("Sheet1");
-		
-	for (int i=0; i<=4; i++)
-	{
-		for (int j=0; j<=1;j++)
-		{
-		System.out.print(b.getRow(i).getCell(j).getNumericCellValue()+ "	");
-		
-		}
-		
-		System.out.println();	
-	}
-	}
+//	{
+//		for (int j=0; j<=1;j++)
+//		{
+//		System.out.print(b.getRow(i).getCell(j).getNumericCellValue()+ "	");
+//		
+//		}
+//		
+//		System.out.println();	
+//	}
+//	}
 }
 
